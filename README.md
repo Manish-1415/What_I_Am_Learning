@@ -14,8 +14,10 @@ Welcome to my personal learning journal! This repository serves as a daily track
 
 ## 📅 Daily Log
 
-### 🔹 [27-05-2026] — Javascript methods
+### 🔹 [27-05-2026] — Javascript methods & Difference between I/O bound & CPU intensive tasks
 - **Topic:** Learned JS bind(), call(), apply() methods
-- **Body:** Today I learn javascript's bind(), call(), apply() methods, which are used to execute a function instantly & giving a this context to a function. call() & apply() are the same they execute instantly but bind() returns a copy of a function with this reference & arguments(`bind(), call(), apply() we can give this context`). 
+- **Body:** Today I learn javascript's bind(), call(), apply() methods, which are used to execute a function instantly & giving a this context to a function. call() & apply() are the same they execute instantly but bind() returns a copy of a function with this reference & arguments(`bind(), call(), apply() we can give this context`).
+- I/O bound - this are mostly lightweight performance tasks like read a file, network call, fetch from DB, which doesnt require CPU utilization.
+- CPU Intensive - this are powerful CPU dependent heavy tasks, like doing cryptography, video editing, or any other high CPU consuming tasks lies in this category.
   
 ---
