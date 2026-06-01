@@ -31,7 +31,14 @@ Welcome to my personal learning journal! This repository serves as a daily track
 * `3 : EventEmiiter vs Kafka/RabbitMQ` (`EventEmmiter`) runs within single node.js process, it uses volatile RAM (so across restarts data is lost), cannot scalable acrross different servers, used to pass data between modules within single microservice. (`Kafka & RabbitMQ`) used disk for data persistence, within multiple distributed networks (diff services), data wont lost across restarts, used to pass data between different microservices (full decoupled system / distributed systems). Event Emitter does not mean full Decoupled system, it just used to pass data between modules no true background processing, the await keyword makes it go in the eventLoop so thats how it works.
 ---
 
-### 🔹 [30-05-2026] — 
+### 🔹 [30-05-2026] — Node.js Related Stuff
 - **Topic:** Node.js Single Threaded Nature how processes Heavy CPU tasks ?
 - **Body:** Node.js is very good for heavy I/O tasks, but its single threaded nature is not capable for CPU heavy tasks but that doesnt mean that you cannot perform heavy CPU tasks, there are various ways that one can use to perform heavy operations using (`WebAssembly`) - means write code in C++ / Rust / Go & compile it in webassembly, then next way is (`worker_threads`) - to spawn new threads to perform heavy tasks & another way is using (`Messaging Queues`).
+---
+
+### 🔹 [1-06-2026] — CSS Refresher
+- **Topic:** CSS Flexbox, Box Sizing, & some Extra things
+- **Body:**  Slowly understanding the structures of a webpages, today i have learned how to style a specific component, CSS is also not that hard, it's just making everything cool by implementing an layout.
+- Flexbox is just a kinda tool to structure your webpage & rest all things are extras like, animations, styling, colors etc.
+  
 ---
