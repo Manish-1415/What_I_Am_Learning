@@ -42,3 +42,11 @@ Welcome to my personal learning journal! This repository serves as a daily track
 - Flexbox is just a kinda tool to structure your webpage & rest all things are extras like, animations, styling, colors etc.
   
 ---
+
+### 🔹 [3-06-2026] — EventLoop & Some In depth Knowledge of Event Loop
+- **Topic:** EventLoop 
+- **Body:**  EventLoop is a mechanism of javascript which handles asynchronous code & promises.
+- It consists with 3 things, CallStack, Web API's(if using js in browser) / C++ API's or libuv library & Callback Queue
+- What happens is every synchronus & asynchronous code starts executing inside the call stack one after another, asynchronous functions also run in callstack immediately until js found await keyword infront of an operation, when it founds the entry from the callstack vanish & goes in browser API's or if using node.js then the entry goes inside the libuv or something else, then what happens is if the async code is I/O task, setTimeout, setInterval or etc. then that goes in macro tasks queue, if something returns a promise it goes in micro tasks queues.
+- micro tasks queue have highest priority, after the callstack gets fully drain then one after another the micro tasks queues code execute, after that single macro task queues task gets executed.
+- (`If IO request goes inside the macro task but we wrap that request inside the async/await or within the promises then how does that works ? like it should go inside micro task but it goes in macro task queue ?`) Ok so what happens is the IO will go inside the macro task queue but when that executed & it returns a promise then it is pushed inside the micro task queues, so thats how the async/await or promises are so fast
