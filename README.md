@@ -65,3 +65,24 @@ Welcome to my personal learning journal! This repository serves as a daily track
 
 - This above concepts used to reduce the API/network request because some events triggers unnecessary anytime. it avoids them by triggering after a pause / after a specific timeframe.
 
+---
+
+- **Topic** Prototypes & Prototypal Inheritance
+- **Body** Everything in JavaScript is an Object (this statement is made because in javascript everything belongs to Object / the root is Object).
+
+- In simple in js everything is an Object, so every object have an extra value called .__proto__ which reference to the parent Prototype.
+Prototype - is an actual toolbox, this only on the function or an Class it doesn't have it on raw values / objects.
+
+- ***Remember*** - prototype is an actual class / function & __proto__ is an extra property on every object.
+
+- why we say everything is an object ?
+- ex., when you do const myName = "maddy";
+- internally what happens is new String(myName); // this will create an String instance this happens internally that's why everything in js are objects.
+***Wrapper Class*** - JavaScript have wrapper classes which are String, Number, Boolean etc. which gets refered when we assign a primitive type a value.
+
+- __proto__ refers to the parent prototype(actual toolbox(wrapper class / parent class / function)) with this prototype
+
+- What is prototypal chaining ?
+- Prototypal chanining means every object in javascript refers to something with .__proto__ but at the end it refers Object & Object.__proto__ refers to null / nothing so the root of an every object is Object itself.
+
+- so when we create an array ex., let myArr = [1,2,3] this means we didn't making copy of every method from Array wrapper class, here our myArr.__proto__ refers the Array.prototype which lets us use the array methods without copying the array methods to every array object.
