@@ -43,7 +43,7 @@ Welcome to my personal learning journal! This repository serves as a daily track
   
 ---
 
-### 🔹 [3-06-2026] — EventLoop & Some In depth Knowledge of Event Loop
+### 🔹 [4-06-2026] — EventLoop & Some In depth Knowledge of Event Loop
 - **Topic:** EventLoop 
 - **Body:**  EventLoop is a mechanism of javascript which handles asynchronous code & promises.
 - It consists with 3 things, CallStack, Web API's(if using js in browser) / C++ API's or libuv library & Callback Queue
@@ -53,3 +53,15 @@ Welcome to my personal learning journal! This repository serves as a daily track
 
 - (`Network Request / IO req why it is slow ?`) It is slow because even if the backend server is very fast still it is a network request which will be slow, thats why we see the macro task gets done before the I/O req. but after the promise is returned then eventLoop sends the promise into the micro task queue.
 - But remember the setTimeout only executes first when its time is lesser than the expected network req time, if u set 1 sec obviously network req will execute first but if u set it less like 100ms then setTimeout will execute first & also dont forget that Network / IO req goes inside the macro task queue first then the promise goes inside the micro task queue.
+
+---
+
+### 🔹 [5-06-2026] — Frontend event handling & Prototypes in JS
+- **Topic:** Debouncing & throttle 
+- **Body:** Before learning debouncing & throttle first lets understand what problem does it solves, in js there are many events which gets triggered 100's of times within few seconds, to avoid that we use debouncing & throttle, both does kind of similar job but with different approach. events which triggeres multiple times are scrolling, resizing window, typing in input etc.
+- Debouncing - here what happens is we set a timer & it will resets automatically when the event get triggered, & it will run if after a specific time if events didnt gets triggered then it will run. So what happens timer will be set there, whenever the user suppose typing in input so the timer will gets resets everytime until user stops typing / triggering the event then after a delay it will run & thats how we stop multiple API req.
+
+- Throttle - kind of similar but approach is diff, here we didnt reset the timer, what we do is after a specific timeframe we trigger the event so it can run like we didnt want when we scrolling the event gets triggered everytime, so we will set a delay of 400ms, so now after every 400ms the event will get triggered rather than after every small thing gets changed.
+
+- This above concepts used to reduce the API/network request because some events triggers unnecessary anytime. it avoids them by triggering after a pause / after a specific timeframe.
+
