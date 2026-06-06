@@ -86,3 +86,9 @@ Prototype - is an actual toolbox, this only on the function or an Class it doesn
 - Prototypal chanining means every object in javascript refers to something with .__proto__ but at the end it refers Object & Object.__proto__ refers to null / nothing so the root of an every object is Object itself.
 
 - so when we create an array ex., let myArr = [1,2,3] this means we didn't making copy of every method from Array wrapper class, here our myArr.__proto__ refers the Array.prototype which lets us use the array methods without copying the array methods to every array object.
+
+---
+
+### 🔹 [6-06-2026] — React Refresher
+- **Topic:** Started Learning React after some time.
+- **Body:** Started learning react to enhance my development skills
