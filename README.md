@@ -92,3 +92,9 @@ Prototype - is an actual toolbox, this only on the function or an Class it doesn
 ### 🔹 [6-06-2026] — React Refresher
 - **Topic:** Started Learning React after some time.
 - **Body:** Started learning react to enhance my development skills
+
+---
+
+### 🔹 [7-06-2026] — Value Yourself
+- **Topic:** Value Yourself over anything
+- **Body:** This is not technical or career related thing that i have learned today, instead it is more likely self development / career development thing, which calls your identity that if you didnt value yourself then no one else will for you, so be there for yourself whenever there is need, like put yourself infront & talk like nobody owns you, if you keep talking like someone who feel that they are like supreme level then that is also wrong & if you think like let them talk & i will not talk for myself then that will also nothing, put yourself on top but dont feel the ego, stay calm, value yourself, respect others, listen from others & do what you really want to do. This is more like life lesson which will be helpful.
