@@ -98,3 +98,16 @@ Prototype - is an actual toolbox, this only on the function or an Class it doesn
 ### 🔹 [7-06-2026] — Value Yourself
 - **Topic:** Value Yourself over anything
 - **Body:** This is not technical or career related thing that i have learned today, instead it is more likely self development / career development thing, which calls your identity that if you didnt value yourself then no one else will for you, so be there for yourself whenever there is need, like put yourself infront & talk like nobody owns you, if you keep talking like someone who feel that they are like supreme level then that is also wrong & if you think like let them talk & i will not talk for myself then that will also nothing, put yourself on top but dont feel the ego, stay calm, value yourself, respect others, listen from others & do what you really want to do. This is more like life lesson which will be helpful.
+
+---
+
+### 🔹 [8-06-2026] — Refreshing my React Knowledge
+- **Topic:** Picking up the frontend knowledge for fullstack journey.
+- **Body:** Started learning react.js & frontend concepts to build POW in fullstack development.
+- Started learning react - useState, useContext, useEffect, useReducer, Portal & multiple react concepts to sharpen my frontend expertise.
+- Frontend fear is slowly going away, with more focused & with more precision than i have started it earlier in last year.
+- Every concept of React seems simple now, with the consistent effor that i have put it in the JS.
+- (`useState`) is a hook which refers to the current state of something in a component. It provides current state & a function to update the state over some time.
+- (`useContext`) API & Hook are kind of similar but hook provides much cleaner & easier way to access the data/value as compare to API.
+- (`useEffect`) hook used to perform side-effects on different scenarios, ex., on first initial render (with empty dependency array), on every re-render (without any dependency array), & on specific state updation (with dependency array which consists a states) only re-renders whenever the state changes.
+- (`useReducer`) hook used to handle more complex state logic, just a way to manage the complex state more gracefully rather than handling multiple useStates with setter function overall in your component. Steps - 1. first initialize the initialState, 2. implement reducer function which takes state & actions(which triggers the dispatch functions) as parameters & write the logic, 3. destructure the state & dispatch function from useReducer which will have reducer & initialState as its arguments. You can do some extra stuff also, like provide some extra values in dispatch like payload which means some extra info around the state which helps to change it bit differently.
