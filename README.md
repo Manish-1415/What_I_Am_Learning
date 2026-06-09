@@ -111,3 +111,11 @@ Prototype - is an actual toolbox, this only on the function or an Class it doesn
 - (`useContext`) API & Hook are kind of similar but hook provides much cleaner & easier way to access the data/value as compare to API.
 - (`useEffect`) hook used to perform side-effects on different scenarios, ex., on first initial render (with empty dependency array), on every re-render (without any dependency array), & on specific state updation (with dependency array which consists a states) only re-renders whenever the state changes.
 - (`useReducer`) hook used to handle more complex state logic, just a way to manage the complex state more gracefully rather than handling multiple useStates with setter function overall in your component. Steps - 1. first initialize the initialState, 2. implement reducer function which takes state & actions(which triggers the dispatch functions) as parameters & write the logic, 3. destructure the state & dispatch function from useReducer which will have reducer & initialState as its arguments. You can do some extra stuff also, like provide some extra values in dispatch like payload which means some extra info around the state which helps to change it bit differently.
+
+---
+
+### 🔹 [9-06-2026] — useRef() & useId() hook & custom hooks
+- **Topic:** learn useRef, useId & custom hooks today
+- **Body:**  (`useRef()`) this hook is used to access DOM elements without causing re-render, it stores the value as object's property & also consists 1 more extra value which is current property, which helps to manipulate DOM elements.
+- (`useId()`) used to createz multiple different Id's for multiple different components.
+- (`custom hooks`) used to build reusable functions, which we can reuse later in the project. To create custom hook you should use the (`use`) prefix before the hook name just like how we write State after use same like that.
