@@ -119,3 +119,9 @@ Prototype - is an actual toolbox, this only on the function or an Class it doesn
 - **Body:**  (`useRef()`) this hook is used to access DOM elements without causing re-render, it stores the value as object's property & also consists 1 more extra value which is current property, which helps to manipulate DOM elements.
 - (`useId()`) used to createz multiple different Id's for multiple different components.
 - (`custom hooks`) used to build reusable functions, which we can reuse later in the project. To create custom hook you should use the (`use`) prefix before the hook name just like how we write State after use same like that.
+
+---
+
+### 🔹 [22-07-2026] — Resuming the studies
+- **Topic:** JS basics & other stuff
+- **Body:** re-sumed the learning journey by slowly practising from basics, after a big gap of upto about 40/45 days. Its slow but started walking on the path once again.
